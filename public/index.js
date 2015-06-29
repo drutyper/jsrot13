@@ -6,8 +6,12 @@
   Returns the modified character.
 */
 
+//id = #inputText
+//class = .instructions
+
 var translateCharacter = function(character) {
   var charCode = character.charCodeAt(0);
+  console.log(translateCharacter)
 
   // Lowercase
   if (charCode >= 97 && charCode <= 122) {
